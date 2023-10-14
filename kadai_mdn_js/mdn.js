@@ -1,7 +1,8 @@
-const today = new Date();
+
+const today = new Date(2023, 7, 22);
 
 const year = today.getFullYear();
 const month = today.getMonth() + 1;
-const date = today.getDate();
+const day = today.getDate();
 
-console.log(year + "/" + month + "/" + date);
+console.log(year + "/" + month + "/" + day);
